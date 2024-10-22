@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Prociono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Design System</title>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <h1>My Design System</h1>
+            <ul>
+                <li><a href="#colors-is">Colors</a></li>
+                <li><a href="#fonts-id">Fonts</a></li>
+                <li><a href="#text-styles-id">Headers</a></li>
+                <li><a href="#references-id">References</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="content">
+        <section id="colors-id" class="colors">
+            <h1 class="section-title">Colors:</h1>
+        <div class="card-container">
+            <div class="card blue">
+                <h1 class="element-title">Blue</h1>
+                <h3>rgb(0, 0, 255)</h3>
+                <h5>#0000ff</h5>
+            </div>
+            <div class="card red">
+                <h1 class="element-title">Red</h1>
+                <h3>rgb(255, 0, 0)</h3>
+                <h5>#ff0000</h5>
+            </div>
+            <div class="card green">
+                <h1 class="element-title">Green</h1>
+                <h3>rgb(0, 128, 0)</h3>
+                <h5>#008000</h5>
+            </div>
+            <div class="card black">
+                <h1 class="element-title">Black</h1>
+                <h3>rgb(0, 0, 0)</h3>
+                <h5>#000000</h5>
+            </div> 
+        </div>   
+        </section>
+
+        <section id="fonts-id" class="fonts">
+            <h1 class="section-title">Fonts:</h1>
+        <div class="card-container">
+            <div class="card Prociono">
+                <h1 class="element-title">Prociono</h1>
+                <p class="style-1">This is the Prociono font styled in 30px and italic</p>
+                <p class="style-2">This is the Prociono font stayled in 20px regular 800</p>
+                <p class="style-3">This is the Prociono font styled in 10px and regular</p>
+            </div>
+            <div class="card Roboto">
+                <h1 class="element-title">Roboto</h1>
+                <p class="style-1">This is the Roboto font styled in 30px and italic</p>
+                <p class="style-2">This is the Roboto font stayled in 20px and regular 800</p>
+                <p class="style-3">This is the Roboto font styled in 10px and regular</p>
+            </div>
+            <div class="card Mono">
+                <h1 class="element-title">Space Mono</h1>
+                <p class="style-1">This is the Space Mono font styled in 30px and italic</p>
+                <p class="style-2">This is the Space Mono font stayled in 20px and bold</p>
+                <p class="style-3">This is the Space Mono font styled in 10px and regular</p>
+            </div>
+            <div class="card Permanent">
+                <h1 class="element-title">Permanent Marker</h1>
+                <p class="style-1">This is the Permanent Marker font styled in 30px and italic</p>
+                <p class="style-2">This is the Permanent Marker font stayled in 20px regular 800</p>
+                <p class="style-3">This is the Permanent Marker font styled in 10px and regular</p>
+            </div> 
+        </div>   
+        </section>
+
+        <section id="text-styles-id" class="text-styles">
+            <h1 class="section-title">Text styles:</h1>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="element-title">h1,h2 ..., h6</h1>
+                    <p><h1>This is <strong>main</strong> title using the h1 tag</h1></p>
+                    <p><h2>This is <strong>subtitle</strong> using the h2 tag</h2></p>
+                    <p><h3>This is a title using the h3 tag</h3></p>
+                    <p><h4>This is a title using the h4 tag</h4></p>
+                    <p><h5>This is a title using the h5 tag</h5></p>
+                    <p><h6>This is a title using the h6 tag</h6></p>
+                </div>
+                <div class="card">
+                    <h1 class="element-title">P: paragraph</h1>
+                    <p>i am a paragraph, i am a paragraph,i am a paragraph,i am a paragraph,i am a paragraph,
+                        i am a paragraph,i am a paragraph,i am a paragraph,i am a paragraph,i am a paragraph,
+                        i am a paragraph,i am a paragraph,i am a paragraph,i am a paragraph,i am a paragraph,
+                        i am a paragraph,i am a paragraph,i am a paragraph,i am a paragraph,i am a paragraph,
+                    </p>
+                </div>
+                <div class="card">
+                    <h1 class="element-title">Font sizing</h1>
+                    <p class="size-1">font-size: 30px;</p>
+                    <p class="size-2">font-size: 20px;</p>
+                    <p class="size-3">font-size: 10px;</p>
+                </div>
+                
+        </div>   
+        </section>
+
+        <section id="references-id" class="references">
+            <h1 class="section-title">References:</h1>
+            <ul>
+                <li>Colors: <a href="https://www.w3schools.com/colors/colors_rgb.asp">Choose a color</a>, and explore the deferente CSS values of it.</li>
+                <li>Fonts: <a href="https://fonts.google.com">Choose the font you like</a>, and add it ,then you can use it.</li>
+                <li>Text style: You want to <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text">style your text</a> ! take a look.</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
